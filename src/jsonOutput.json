@@ -1,0 +1,59 @@
+{
+  "status": "ok",
+  "totalResults": 5,
+  "articles": [
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Denise Roland",
+      "title": "GlaxoSmithKline Racing to Provide Only Effective Covid-19 Antibody Treatment",
+      "description": "GlaxoSmithKline and Vir Biotechnology are increasing output at a second plant to help meet demand for sotrovimab",
+      "url": "https://www.wsj.com/articles/glaxosmithkline-racing-to-provide-only-effective-covid-19-antibody-treatment-11642770001?mod=hp_lead_pos6",
+      "urlToImage": "https://images.wsj.net/im-470746/social",
+      "publishedAt": "2022-01-21T13:00:00Z",
+      "content": "GlaxoSmithKline\r\nPLC and partner\r\nVir Biotechnology Inc.\r\nare straining to meet soaring demand for their Covid-19 antibody treatment after the highly mutated Omicron variant knocked out the two compe… [+6108 chars]"
+    },
+    {
+      "source": { "id": "techcrunch", "name": "TechCrunch" },
+      "author": "Annie Njanja",
+      "title": "Paris-based VC firm Partech unveils Chapter54 accelerator to help European startups cross into Africa",
+      "description": "Partech Shaker, the innovation division of the Paris-based VC firm Partech, has launched an accelerator program christened Chapter54 to help European startups launch in African markets. The accelerator will take in 10 technology startups annually over the nex…",
+      "url": "https://techcrunch.com/2022/01/21/paris-based-vc-firm-partech-unveils-chapter54-accelerator-to-help-european-startups-cross-into-africa/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/12/GettyImages-1298765066.jpg?w=669",
+      "publishedAt": "2022-01-21T12:46:17Z",
+      "content": "Partech Shaker, the innovation division of the Paris-based VC firm Partech, has launched an accelerator program christened Chapter54 to help European startups launch in African markets.\r\nThe accelera… [+2862 chars]"
+    },
+    {
+      "source": { "id": "techcrunch", "name": "TechCrunch" },
+      "author": "Mike Butcher",
+      "title": "Dublin's Exergyn pulls in $35M Series A for solution which replaces GHG-causing refrigerants",
+      "description": "Dublin-based Exergyn replaces refrigerants with solid materials, thus reducing the output of greenhouse gases. The technology could be applicable in data centers. The industrial-grade cleantech company has now raised a $35 million (€30 million) Series A round…",
+      "url": "https://techcrunch.com/2022/01/21/dublins-exergyn-pulls-in-35m-series-a-for-solution-which-replaces-ghg-causing-refrigerants/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2022/01/Dr.-Kevin-OToole-Exergyn.jpg?w=600",
+      "publishedAt": "2022-01-21T08:01:52Z",
+      "content": "Dublin-based Exergyn replaces refrigerants with solid materials, thus reducing the output of greenhouse gases. The technology could be applicable in data centers.\r\nThe industrial-grade cleantech comp… [+1632 chars]"
+    },
+    {
+      "source": { "id": "fortune", "name": "Fortune" },
+      "author": "Jessica Mathews",
+      "title": "The FTC is ‘not going to back down’ on big business",
+      "description": "FTC Chair Lina Khan has big plans for tackling technology giants—but limited time and resources to see them out.",
+      "url": "https://fortune.com/2022/01/20/ftc-lina-khan-files-antitrust-case-against-meta-facebook-big-tech-big-business/",
+      "urlToImage": "https://content.fortune.com/wp-content/uploads/2022/01/GettyImages-1232439968.jpg?resize=1200,600",
+      "publishedAt": "2022-01-20T16:21:22Z",
+      "content": "Skip to Content"
+    },
+    {
+      "source": { "id": "next-big-future", "name": "Next Big Future" },
+      "author": "Brian Wang",
+      "title": "Ontario Selected GEH SMR BWRX-300 Boiler Reactor | NextBigFuture.com",
+      "description": "GE Hitachi Nuclear Energy (GEH) was selected by Ontario Power Generation (OPG) as the technology partner for the Darlington New Nuclear Project. GEH will work",
+      "url": "https://www.nextbigfuture.com/2022/01/174410.html",
+      "urlToImage": "https://nextbigfuture.s3.amazonaws.com/uploads/2022/01/BWRX-300-single-plant.jpeg",
+      "publishedAt": "2022-01-18T14:36:14Z",
+      "content": "An independent report by PwC Canada, commissioned by GEH, estimates that the construction and operation of the first BWRX-300 in Ontario is expected to generate approximately $2.3 billion in Gross Do… [+1999 chars]"
+    }
+  ]
+}
