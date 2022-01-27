@@ -1,11 +1,10 @@
-import React, { Component } from "react";
+import image_not_found from "./image-not-found.jpg"
 
-export class NewsItem extends Component {
-  image_not_found = require("./image-not-found.jpg");
-  render() {
-    let { title, description, imageUrl, newsUrl, publishedAt, author, source } =
-      this.props;
-    let d = new Date(publishedAt);
+const NewsItem = (props) => {
+
+    // let { title, description, imageUrl, newsUrl, publishedAt, author, source } =
+    //   this.props;
+    let d = new Date(props.publishedAt);
     return (
       <div className="card my-3">
         <div
@@ -16,28 +15,28 @@ export class NewsItem extends Component {
             right: "0",
           }}
         >
-          <span className="badge rounded-pill bg-danger">{source}</span>
+          <span className="badge rounded-pill bg-danger">{props.source}</span>
         </div>
         <img
-          height={imageUrl ? "" : "160px"}
-          width={imageUrl ? "" : "180px"}
-          src={imageUrl ? imageUrl : this.image_not_found}
+          height={props.imageUrl ? "" : "160px"}
+          width={props.imageUrl ? "" : "180px"}
+          src={props.imageUrl ? props.imageUrl : image_not_found}
           className="card-img-top"
           alt="..."
         />
         <div className="card-body">
-          <h5 className="card-title">{title}</h5>
-          <p className="card-text">{description}</p>
+          <h5 className="card-title">{props.title}</h5>
+          <p className="card-text">{props.description}</p>
           <p className="card-text">
             <small className="text-muted">
-              By {author} at {d.toLocaleTimeString()} on{" "}
+              By {props.author} at {d.toLocaleTimeString()} on{" "}
               {d.toLocaleDateString()}
             </small>
           </p>
 
           <a
             rel="noreferrer"
-            href={newsUrl}
+            href={props.newsUrl}
             target="_blank"
             className="btn btn-sm btn-primary"
           >
@@ -47,6 +46,6 @@ export class NewsItem extends Component {
       </div>
     );
   }
-}
+
 
 export default NewsItem;
