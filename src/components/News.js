@@ -92,7 +92,7 @@ export class News extends Component {
   render() {
     return (
       <>
-        <h2 className="text-center" style={{ margin: "35px 0px" }}>
+        <h2 className="text-center" style={{ margin: "35px 0px", marginTop: "100px"}}>
           NewsMonkey - Top Headlines
         </h2>
         {/* <div className="text-center">
